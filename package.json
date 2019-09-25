@@ -6,11 +6,12 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:github": "yarn run build && node ./deploy-github"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itstechupnorth/gatsby-starter-coming-soon.git"
+    "url": "git+https://github.com/FinesoftAfrika/gatsby-starter-coming-soon.git"
   },
   "keywords": [
     "gatsby",
@@ -19,13 +20,16 @@
   "author": "Robert Burrell Donkin (Tech Up North Ltd)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/itstechupnorth/gatsby-starter-coming-soon/issues"
+    "url": "https://github.com/FinesoftAfrika/gatsby-starter-coming-soon.git"
   },
-  "homepage": "https://github.com/itstechupnorth/gatsby-starter-coming-soon#readme",
+  "homepage": "https://github.com/FinesoftAfrika/gatsby-starter-coming-soon.git#readme",
   "dependencies": {
     "gatsby": "^1.9.225",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-no-sourcemaps": "^1.0.4",
     "gatsby-plugin-typography": "^1.7.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
